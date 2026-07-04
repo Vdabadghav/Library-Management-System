@@ -1,0 +1,7 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "workbench.editor.autoLockGroups": {
+        "vscode.videoPreview": true,
+        "workbench.editor.chatSession": true
+    }
+}

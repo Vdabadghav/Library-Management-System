@@ -1,0 +1,134 @@
+/**
+ * Page Content Styles
+ */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.page-container h1 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.page-container h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.data-table thead {
+  background-color: #34495e;
+  color: white;
+}
+
+.data-table th,
+.data-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.data-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.data-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.status.active {
+  background-color: #d5f4e6;
+  color: #27ae60;
+}
+
+.status.suspended {
+  background-color: #fdeaa8;
+  color: #f39c12;
+}
+
+.status.expired {
+  background-color: #fadbd8;
+  color: #e74c3c;
+}
+
+.status.inactive {
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+}
+
+/* Forms */
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form-container h2 {
+  margin-bottom: 25px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #7f8c8d;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.tab.active {
+  color: #3498db;
+  border-bottom-color: #3498db;
+}
+
+.tab:hover {
+  color: #2c3e50;
+}

@@ -1,0 +1,932 @@
+2026-05-26 16:02:50 - app - INFO - Starting Library Management System API v1.0.0
+2026-05-26 16:02:50 - app - INFO - Debug mode: True
+2026-05-26 16:02:50 - app - INFO - Database: localhost:3306/library_management_db
+2026-05-26 16:02:50 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-05-26 16:04:27 - app - INFO - Starting Library Management System API v1.0.0
+2026-05-26 16:04:27 - app - INFO - Debug mode: True
+2026-05-26 16:04:27 - app - INFO - Database: localhost:3306/library_management_db
+2026-05-26 16:04:27 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-05-28 13:04:52 - app - INFO - Starting Library Management System API v1.0.0
+2026-05-28 13:04:52 - app - INFO - Debug mode: True
+2026-05-28 13:04:52 - app - INFO - Database: localhost:3306/library_management_db
+2026-05-28 13:04:52 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-05-28 16:07:41 - app - INFO - Starting Library Management System API v1.0.0
+2026-05-28 16:07:41 - app - INFO - Debug mode: True
+2026-05-28 16:07:41 - app - INFO - Database: localhost:3306/library_management_db
+2026-05-28 16:07:41 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-05-28 16:19:36 - app - INFO - Starting Library Management System API v1.0.0
+2026-05-28 16:19:36 - app - INFO - Debug mode: True
+2026-05-28 16:19:36 - app - INFO - Database: localhost:3306/library_management_db
+2026-05-28 16:19:36 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-01 14:31:43 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-01 14:31:43 - app - INFO - Debug mode: True
+2026-06-01 14:31:43 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-01 14:31:43 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-01 14:37:53 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-01 14:37:53 - app - INFO - Debug mode: True
+2026-06-01 14:37:53 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-01 14:37:53 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-01 14:39:42 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-01 14:39:42 - app - INFO - Debug mode: True
+2026-06-01 14:39:42 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-01 14:39:42 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-01 15:06:57 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-01 15:06:57 - app - INFO - Debug mode: True
+2026-06-01 15:06:57 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-01 15:06:57 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-01 15:07:00 - app - INFO - Starting up Library Management System API...
+2026-06-01 15:07:00 - app - ERROR - Database connection failed: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '18@localhost:3306' (Errno 11003: getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-06-01 15:07:00 - app - ERROR - Failed to connect to database on startup
+2026-06-01 16:11:51 - app - ERROR - Login error: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '18@localhost:3306' (Errno 11003: getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-06-01 16:11:51 - app - ERROR - Database session error: 500: Login failed
+2026-06-01 16:25:34 - app - ERROR - Database session error: 1 validation error:
+  {'type': 'value_error', 'loc': ('body', 'password'), 'msg': 'Value error, Password must contain at least one uppercase letter', 'input': 'udemy12@', 'ctx': {'error': ValueError('Password must contain at least one uppercase letter')}}
+
+  File "D:\work\Library Management System\backend\app\api\endpoints\auth.py", line 78, in register
+    POST /api/v1/auth/register
+2026-06-01 16:26:26 - app - ERROR - Login error: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '18@localhost:3306' (Errno 11003: getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-06-01 16:26:26 - app - ERROR - Database session error: 500: Login failed
+2026-06-01 16:29:19 - app - INFO - Shutting down Library Management System API...
+2026-06-01 16:56:31 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-01 16:56:31 - app - INFO - Debug mode: True
+2026-06-01 16:56:31 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-01 16:56:31 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-01 16:56:34 - app - INFO - Starting up Library Management System API...
+2026-06-01 16:56:34 - app - ERROR - Database connection failed: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '18@localhost:3306' (Errno 11003: getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-06-01 16:56:34 - app - ERROR - Failed to connect to database on startup
+2026-06-01 17:03:08 - app - INFO - Shutting down Library Management System API...
+2026-06-03 12:05:12 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 12:05:12 - app - INFO - Debug mode: True
+2026-06-03 12:05:12 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 12:05:12 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 12:05:15 - app - INFO - Starting up Library Management System API...
+2026-06-03 12:05:15 - app - ERROR - Database connection failed: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '18@localhost:3306' (Errno 11003: getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-06-03 12:05:15 - app - ERROR - Failed to connect to database on startup
+2026-06-03 12:49:26 - app - INFO - Shutting down Library Management System API...
+2026-06-03 12:49:42 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 12:49:42 - app - INFO - Debug mode: True
+2026-06-03 12:49:42 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 12:49:42 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 12:49:45 - app - INFO - Starting up Library Management System API...
+2026-06-03 12:49:45 - app - ERROR - Database connection failed: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '18@localhost:3306' (Errno 11003: getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-06-03 12:49:45 - app - ERROR - Failed to connect to database on startup
+2026-06-03 12:52:05 - app - ERROR - Database session error: 1 validation error:
+  {'type': 'value_error', 'loc': ('body', 'password'), 'msg': 'Value error, Password must contain at least one uppercase letter', 'input': 'nitaigaur1@', 'ctx': {'error': ValueError('Password must contain at least one uppercase letter')}}
+
+  File "D:\work\Library Management System\backend\app\api\endpoints\auth.py", line 78, in register
+    POST /api/v1/auth/register
+2026-06-03 12:52:24 - app - ERROR - Login error: (mysql.connector.errors.InterfaceError) 2003: Can't connect to MySQL server on '18@localhost:3306' (Errno 11003: getaddrinfo failed)
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2026-06-03 12:52:24 - app - ERROR - Database session error: 500: Login failed
+2026-06-03 12:54:31 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:36:48 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 13:36:48 - app - INFO - Debug mode: True
+2026-06-03 13:36:48 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 13:36:48 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 13:36:51 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:36:51 - app - ERROR - Database connection failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '18@localhost' ([Errno 11003] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:36:51 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:38:48 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:38:50 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:38:50 - app - ERROR - Database connection failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '18@localhost' ([Errno 11003] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:38:50 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:39:21 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:39:23 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:39:23 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18@localhost' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:39:23 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:39:23 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:39:26 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:39:26 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18@localhost' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:39:26 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:39:26 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:39:28 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:39:28 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18@localhost' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:39:28 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:40:21 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:40:24 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:40:24 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18@localhost' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:40:24 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:41:57 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:42:00 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:42:00 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:42:00 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:44:14 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:44:17 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:44:24 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18localhost' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:44:24 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:44:57 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:56:23 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 13:56:23 - app - INFO - Debug mode: True
+2026-06-03 13:56:23 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 13:56:23 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 13:56:25 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:56:28 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18localhost' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:56:28 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:56:42 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:57:12 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 13:57:12 - app - INFO - Debug mode: True
+2026-06-03 13:57:12 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 13:57:12 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 13:57:14 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:57:17 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18localhost' (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:57:17 - app - ERROR - Failed to connect to database on startup
+2026-06-03 13:57:52 - app - INFO - Shutting down Library Management System API...
+2026-06-03 13:58:51 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 13:58:51 - app - INFO - Debug mode: True
+2026-06-03 13:58:51 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 13:58:51 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 13:58:53 - app - INFO - Starting up Library Management System API...
+2026-06-03 13:58:53 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18@localhost' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 13:58:53 - app - ERROR - Failed to connect to database on startup
+2026-06-03 14:01:50 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:01:50 - app - INFO - Debug mode: True
+2026-06-03 14:01:50 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:01:50 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:01:53 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:01:53 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18@localhost' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 14:01:53 - app - ERROR - Failed to connect to database on startup
+2026-06-03 14:04:38 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:04:40 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:04:40 - app - ERROR - Database connection failed: (MySQLdb.OperationalError) (2005, "Unknown server host '18@localhost' (11003)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-03 14:04:40 - app - ERROR - Failed to connect to database on startup
+2026-06-03 14:04:44 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:09:11 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:09:11 - app - INFO - Debug mode: True
+2026-06-03 14:09:11 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:09:11 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:09:13 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:09:13 - app - INFO - Database connection successful
+2026-06-03 14:09:14 - app - INFO - Database tables initialized successfully
+2026-06-03 14:09:14 - app - INFO - Database initialized successfully
+2026-06-03 14:13:00 - app - ERROR - Database session error: 1 validation error:
+  {'type': 'value_error', 'loc': ('body', 'password'), 'msg': 'Value error, Password must contain at least one uppercase letter', 'input': 'nitaigaur12@', 'ctx': {'error': ValueError('Password must contain at least one uppercase letter')}}
+
+  File "D:\work\Library Management System\backend\app\api\endpoints\auth.py", line 78, in register
+    POST /api/v1/auth/register
+2026-06-03 14:13:18 - app - WARNING - Login failed: User 'vedang0408' not found
+2026-06-03 14:13:18 - app - ERROR - Database session error: 401: Invalid username or password
+2026-06-03 14:13:40 - app - WARNING - Login failed: User 'vedang0408' not found
+2026-06-03 14:13:40 - app - ERROR - Database session error: 401: Invalid username or password
+2026-06-03 14:22:42 - app - ERROR - Database session error: 1 validation error:
+  {'type': 'value_error', 'loc': ('body', 'password'), 'msg': 'Value error, Password must contain at least one uppercase letter', 'input': 'password1@', 'ctx': {'error': ValueError('Password must contain at least one uppercase letter')}}
+
+  File "D:\work\Library Management System\backend\app\api\endpoints\auth.py", line 78, in register
+    POST /api/v1/auth/register
+2026-06-03 14:24:16 - app - ERROR - Registration error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:24:16 - app - ERROR - Database session error: 400: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:24:24 - app - ERROR - Registration error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:24:24 - app - ERROR - Database session error: 400: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:24:28 - app - ERROR - Registration error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:24:28 - app - ERROR - Database session error: 400: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:24:47 - app - ERROR - Registration error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:24:47 - app - ERROR - Database session error: 400: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:25:29 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:25:31 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:25:31 - app - INFO - Database connection successful
+2026-06-03 14:25:32 - app - INFO - Database tables initialized successfully
+2026-06-03 14:25:32 - app - INFO - Database initialized successfully
+2026-06-03 14:25:34 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:26:38 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:26:38 - app - INFO - Debug mode: True
+2026-06-03 14:26:38 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:26:38 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:26:41 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:26:42 - app - INFO - Database connection successful
+2026-06-03 14:26:42 - app - INFO - Database tables initialized successfully
+2026-06-03 14:26:42 - app - INFO - Database initialized successfully
+2026-06-03 14:27:05 - app - ERROR - Registration error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:27:05 - app - ERROR - Database session error: 400: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:27:31 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:27:34 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:27:34 - app - INFO - Database connection successful
+2026-06-03 14:27:35 - app - INFO - Database tables initialized successfully
+2026-06-03 14:27:35 - app - INFO - Database initialized successfully
+2026-06-03 14:27:36 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:27:39 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:27:39 - app - INFO - Database connection successful
+2026-06-03 14:27:39 - app - INFO - Database tables initialized successfully
+2026-06-03 14:27:39 - app - INFO - Database initialized successfully
+2026-06-03 14:27:46 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:27:47 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:27:48 - app - INFO - Database connection successful
+2026-06-03 14:27:48 - app - INFO - Database tables initialized successfully
+2026-06-03 14:27:48 - app - INFO - Database initialized successfully
+2026-06-03 14:27:49 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:27:51 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:27:51 - app - INFO - Debug mode: True
+2026-06-03 14:27:51 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:27:51 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:27:55 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:27:55 - app - INFO - Database connection successful
+2026-06-03 14:27:55 - app - INFO - Database tables initialized successfully
+2026-06-03 14:27:55 - app - INFO - Database initialized successfully
+2026-06-03 14:28:12 - app - ERROR - Registration error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:28:12 - app - ERROR - Database session error: 400: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:28:41 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:28:44 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:28:44 - app - INFO - Database connection successful
+2026-06-03 14:28:44 - app - INFO - Database tables initialized successfully
+2026-06-03 14:28:44 - app - INFO - Database initialized successfully
+2026-06-03 14:28:46 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:28:49 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:28:49 - app - INFO - Database connection successful
+2026-06-03 14:28:49 - app - INFO - Database tables initialized successfully
+2026-06-03 14:28:49 - app - INFO - Database initialized successfully
+2026-06-03 14:29:13 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:29:15 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:29:15 - app - INFO - Database connection successful
+2026-06-03 14:29:15 - app - INFO - Database tables initialized successfully
+2026-06-03 14:29:15 - app - INFO - Database initialized successfully
+2026-06-03 14:29:37 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:29:39 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:29:39 - app - INFO - Database connection successful
+2026-06-03 14:29:40 - app - INFO - Database tables initialized successfully
+2026-06-03 14:29:40 - app - INFO - Database initialized successfully
+2026-06-03 14:29:41 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:29:44 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:29:44 - app - INFO - Database connection successful
+2026-06-03 14:29:44 - app - INFO - Database tables initialized successfully
+2026-06-03 14:29:44 - app - INFO - Database initialized successfully
+2026-06-03 14:29:46 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:29:49 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:29:49 - app - INFO - Database connection successful
+2026-06-03 14:29:49 - app - INFO - Database tables initialized successfully
+2026-06-03 14:29:49 - app - INFO - Database initialized successfully
+2026-06-03 14:29:56 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:29:57 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:29:57 - app - INFO - Database connection successful
+2026-06-03 14:29:58 - app - INFO - Database tables initialized successfully
+2026-06-03 14:29:58 - app - INFO - Database initialized successfully
+2026-06-03 14:30:00 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:30:00 - app - INFO - Debug mode: True
+2026-06-03 14:30:00 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:30:00 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:30:04 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:30:04 - app - INFO - Database connection successful
+2026-06-03 14:30:04 - app - INFO - Database tables initialized successfully
+2026-06-03 14:30:04 - app - INFO - Database initialized successfully
+2026-06-03 14:30:18 - app - ERROR - Registration error: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:30:18 - app - ERROR - Database session error: 400: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-03 14:30:55 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:30:58 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:30:58 - app - INFO - Database connection successful
+2026-06-03 14:30:58 - app - INFO - Database tables initialized successfully
+2026-06-03 14:30:58 - app - INFO - Database initialized successfully
+2026-06-03 14:31:02 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:31:02 - app - INFO - Database connection successful
+2026-06-03 14:31:02 - app - INFO - Database tables initialized successfully
+2026-06-03 14:31:02 - app - INFO - Database initialized successfully
+2026-06-03 14:34:11 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:34:11 - app - INFO - Debug mode: True
+2026-06-03 14:34:11 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:34:11 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:34:15 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:34:15 - app - INFO - Database connection successful
+2026-06-03 14:34:15 - app - INFO - Database tables initialized successfully
+2026-06-03 14:34:15 - app - INFO - Database initialized successfully
+2026-06-03 14:34:37 - app - INFO - User created: nitinuser
+2026-06-03 14:34:37 - app - INFO - New user registration: nitinuser
+2026-06-03 14:34:48 - app - INFO - User authenticated: nitinuser
+2026-06-03 14:34:48 - app - ERROR - Login error: 
+2026-06-03 14:34:48 - app - ERROR - Database session error: 
+2026-06-03 14:35:07 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:35:09 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:35:09 - app - INFO - Database connection successful
+2026-06-03 14:35:09 - app - INFO - Database tables initialized successfully
+2026-06-03 14:35:09 - app - INFO - Database initialized successfully
+2026-06-03 14:35:15 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:35:17 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:35:17 - app - INFO - Debug mode: True
+2026-06-03 14:35:17 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:35:17 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:35:19 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:35:19 - app - INFO - Database connection successful
+2026-06-03 14:35:19 - app - INFO - Database tables initialized successfully
+2026-06-03 14:35:19 - app - INFO - Database initialized successfully
+2026-06-03 14:35:21 - app - INFO - User authenticated: nitinuser
+2026-06-03 14:35:21 - app - ERROR - Login error: 
+2026-06-03 14:35:21 - app - ERROR - Database session error: 
+2026-06-03 14:36:51 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:37:00 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:37:00 - app - INFO - Debug mode: True
+2026-06-03 14:37:00 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:37:00 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:37:02 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:37:02 - app - INFO - Database connection successful
+2026-06-03 14:37:02 - app - INFO - Database tables initialized successfully
+2026-06-03 14:37:02 - app - INFO - Database initialized successfully
+2026-06-03 14:37:04 - app - INFO - User authenticated: nitinuser
+2026-06-03 14:37:04 - app - ERROR - Login error: 
+2026-06-03 14:37:04 - app - ERROR - Database session error: 
+2026-06-03 14:37:48 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:37:51 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:37:51 - app - INFO - Debug mode: True
+2026-06-03 14:37:51 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:37:51 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:37:54 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:37:54 - app - INFO - Database connection successful
+2026-06-03 14:37:55 - app - INFO - Database tables initialized successfully
+2026-06-03 14:37:55 - app - INFO - Database initialized successfully
+2026-06-03 14:37:58 - app - INFO - User authenticated: nitinuser
+2026-06-03 14:37:58 - app - ERROR - Login error: 
+2026-06-03 14:37:58 - app - ERROR - Database session error: 
+2026-06-03 14:38:28 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:38:30 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:38:30 - app - INFO - Debug mode: True
+2026-06-03 14:38:30 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:38:30 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:38:33 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:38:33 - app - INFO - Database connection successful
+2026-06-03 14:38:33 - app - INFO - Database tables initialized successfully
+2026-06-03 14:38:33 - app - INFO - Database initialized successfully
+2026-06-03 14:38:34 - app - INFO - User authenticated: nitinuser
+2026-06-03 14:38:34 - app - ERROR - Database session error: 
+2026-06-03 14:40:11 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:40:50 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 14:40:50 - app - INFO - Debug mode: True
+2026-06-03 14:40:50 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 14:40:50 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 14:40:52 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:40:52 - app - INFO - Database connection successful
+2026-06-03 14:40:53 - app - INFO - Database tables initialized successfully
+2026-06-03 14:40:53 - app - INFO - Database initialized successfully
+2026-06-03 14:41:02 - app - INFO - User authenticated: admin
+2026-06-03 14:45:22 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:45:24 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:45:24 - app - INFO - Database connection successful
+2026-06-03 14:45:24 - app - INFO - Database tables initialized successfully
+2026-06-03 14:45:24 - app - INFO - Database initialized successfully
+2026-06-03 14:50:49 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:50:51 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:50:51 - app - INFO - Database connection successful
+2026-06-03 14:50:52 - app - INFO - Database tables initialized successfully
+2026-06-03 14:50:52 - app - INFO - Database initialized successfully
+2026-06-03 14:51:06 - app - INFO - Shutting down Library Management System API...
+2026-06-03 14:51:08 - app - INFO - Starting up Library Management System API...
+2026-06-03 14:51:08 - app - INFO - Database connection successful
+2026-06-03 14:51:08 - app - INFO - Database tables initialized successfully
+2026-06-03 14:51:08 - app - INFO - Database initialized successfully
+2026-06-03 14:51:41 - app - INFO - Shutting down Library Management System API...
+2026-06-03 15:05:47 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 15:05:47 - app - INFO - Debug mode: True
+2026-06-03 15:05:47 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 15:05:47 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 15:05:48 - app - INFO - Starting up Library Management System API...
+2026-06-03 15:05:48 - app - INFO - Database connection successful
+2026-06-03 15:05:48 - app - INFO - Database tables initialized successfully
+2026-06-03 15:05:48 - app - INFO - Database initialized successfully
+2026-06-03 15:06:13 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:06:13 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:06:13 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:06:13 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:07:51 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:07:51 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:07:52 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:07:52 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:08:03 - app - INFO - Shutting down Library Management System API...
+2026-06-03 15:09:22 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 15:09:22 - app - INFO - Debug mode: True
+2026-06-03 15:09:22 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 15:09:22 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 15:09:25 - app - INFO - Starting up Library Management System API...
+2026-06-03 15:09:25 - app - INFO - Database connection successful
+2026-06-03 15:09:25 - app - INFO - Database tables initialized successfully
+2026-06-03 15:09:25 - app - INFO - Database initialized successfully
+2026-06-03 15:11:33 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 15:11:33 - app - INFO - Debug mode: True
+2026-06-03 15:11:33 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 15:11:33 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-06-03 15:11:36 - app - INFO - Starting up Library Management System API...
+2026-06-03 15:11:36 - app - INFO - Database connection successful
+2026-06-03 15:11:36 - app - INFO - Database tables initialized successfully
+2026-06-03 15:11:36 - app - INFO - Database initialized successfully
+2026-06-03 15:12:24 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 15:12:24 - app - INFO - Debug mode: True
+2026-06-03 15:12:24 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 15:12:24 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-03 15:12:27 - app - INFO - Starting up Library Management System API...
+2026-06-03 15:12:27 - app - INFO - Database connection successful
+2026-06-03 15:12:27 - app - INFO - Database tables initialized successfully
+2026-06-03 15:12:27 - app - INFO - Database initialized successfully
+2026-06-03 15:12:54 - app - INFO - User authenticated: admin
+2026-06-03 15:13:00 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:13:00 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:13:01 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:13:01 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:13:50 - app - INFO - User authenticated: admin
+2026-06-03 15:14:12 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:14:12 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:14:12 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:14:12 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:18:08 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:18:08 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:18:09 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:18:09 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:19:32 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 15:19:32 - app - INFO - Debug mode: True
+2026-06-03 15:19:32 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 15:19:32 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-03 15:19:35 - app - INFO - Starting up Library Management System API...
+2026-06-03 15:19:35 - app - INFO - Database connection successful
+2026-06-03 15:19:35 - app - INFO - Database tables initialized successfully
+2026-06-03 15:19:35 - app - INFO - Database initialized successfully
+2026-06-03 15:19:47 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:19:47 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:19:47 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:19:47 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:21:25 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 15:21:25 - app - INFO - Debug mode: True
+2026-06-03 15:21:25 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 15:21:25 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-03 15:21:28 - app - INFO - Starting up Library Management System API...
+2026-06-03 15:21:28 - app - INFO - Database connection successful
+2026-06-03 15:21:28 - app - INFO - Database tables initialized successfully
+2026-06-03 15:21:28 - app - INFO - Database initialized successfully
+2026-06-03 15:21:39 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:21:39 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:21:40 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:21:40 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:22:06 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:22:06 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:22:06 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:22:06 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:23:11 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:23:11 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:25:06 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:25:06 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:25:07 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:25:07 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:28:21 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 15:28:21 - app - INFO - Debug mode: True
+2026-06-03 15:28:21 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 15:28:21 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-03 15:28:25 - app - INFO - Starting up Library Management System API...
+2026-06-03 15:28:25 - app - INFO - Database connection successful
+2026-06-03 15:28:25 - app - INFO - Database tables initialized successfully
+2026-06-03 15:28:25 - app - INFO - Database initialized successfully
+2026-06-03 15:28:31 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:28:31 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:28:34 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 15:28:34 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:21:19 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:22 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:22 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:23 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:23 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:24 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:24 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:24 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:23:24 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:08 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:08 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:11 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:11 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:13 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:13 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:16 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:16 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:22 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:22 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:31 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:42:31 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:04 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:04 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:05 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:05 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:10 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:10 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:45 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:45 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:46 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:46 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:53 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:53 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:53 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:43:53 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:44:22 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:44:22 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:44:54 - app - ERROR - Database session error: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:44:54 - app - ERROR - Unhandled exception: 1 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 0, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:54:53 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:54:53 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:54:53 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:54:53 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:56:54 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:56:54 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:56:54 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 16:56:54 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:32 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:32 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:32 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:32 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:39 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:39 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:40 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:03:40 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:04:50 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:04:50 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:04:50 - app - ERROR - Database session error: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 17:04:50 - app - ERROR - Unhandled exception: 2 validation errors:
+  {'type': 'greater_than_equal', 'loc': ('response', 12, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+  {'type': 'greater_than_equal', 'loc': ('response', 13, 'publication_year'), 'msg': 'Input should be greater than or equal to 1000', 'input': -800, 'ctx': {'ge': 1000}, 'url': 'https://errors.pydantic.dev/2.4/v/greater_than_equal'}
+
+2026-06-03 19:18:26 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-03 19:18:26 - app - INFO - Debug mode: True
+2026-06-03 19:18:26 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-03 19:18:26 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-03 19:18:29 - app - INFO - Starting up Library Management System API...
+2026-06-03 19:18:29 - app - INFO - Database connection successful
+2026-06-03 19:18:29 - app - INFO - Database tables initialized successfully
+2026-06-03 19:18:29 - app - INFO - Database initialized successfully
+2026-06-03 19:19:27 - app - INFO - User authenticated: admin
+2026-06-09 11:45:15 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-09 11:45:15 - app - INFO - Debug mode: True
+2026-06-09 11:45:15 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-09 11:45:15 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-09 11:45:25 - app - INFO - Starting up Library Management System API...
+2026-06-09 11:45:25 - app - INFO - Database connection successful
+2026-06-09 11:45:25 - app - INFO - Database tables initialized successfully
+2026-06-09 11:45:25 - app - INFO - Database initialized successfully
+2026-06-09 12:49:01 - app - ERROR - Error returning book: Book issue with ID 9781503280786 not found
+2026-06-09 12:49:01 - app - ERROR - Database session error: 
+2026-06-09 12:55:22 - app - INFO - User authenticated: admin
+2026-06-22 12:56:44 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-22 12:56:44 - app - INFO - Debug mode: True
+2026-06-22 12:56:44 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-22 12:56:44 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-22 12:58:42 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-22 12:58:42 - app - INFO - Debug mode: True
+2026-06-22 12:58:42 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-22 12:58:42 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-22 12:59:33 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-22 12:59:33 - app - INFO - Debug mode: True
+2026-06-22 12:59:33 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-22 12:59:33 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-22 12:59:35 - app - INFO - Starting up Library Management System API...
+2026-06-22 12:59:35 - app - INFO - Database connection successful
+2026-06-22 12:59:35 - app - INFO - Database tables initialized successfully
+2026-06-22 12:59:35 - app - INFO - Database initialized successfully
+2026-06-22 13:00:42 - app - INFO - User authenticated: admin
+2026-06-22 13:09:08 - app - INFO - Shutting down Library Management System API...
+2026-06-22 13:09:11 - app - INFO - Starting up Library Management System API...
+2026-06-22 13:09:11 - app - INFO - Database connection successful
+2026-06-22 13:09:11 - app - INFO - Database tables initialized successfully
+2026-06-22 13:09:11 - app - INFO - Database initialized successfully
+2026-06-24 12:23:28 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-24 12:23:28 - app - INFO - Debug mode: True
+2026-06-24 12:23:28 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-24 12:23:28 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-24 12:23:31 - app - INFO - Starting up Library Management System API...
+2026-06-24 12:23:31 - app - INFO - Database connection successful
+2026-06-24 12:23:31 - app - INFO - Database tables initialized successfully
+2026-06-24 12:23:31 - app - INFO - Database initialized successfully
+2026-06-24 12:27:18 - app - ERROR - Database session error: [{'type': 'missing', 'loc': ('query', 'book_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'member_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'issued_by_user_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}]
+2026-06-24 13:06:29 - app - ERROR - Database session error: [{'type': 'missing', 'loc': ('query', 'book_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'member_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'issued_by_user_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}]
+2026-06-25 11:48:14 - app - INFO - Starting Library Management System API v1.0.0
+2026-06-25 11:48:14 - app - INFO - Debug mode: True
+2026-06-25 11:48:14 - app - INFO - Database: localhost:3306/library_management_db
+2026-06-25 11:48:14 - app - INFO - CORS Origins: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:8000']
+2026-06-25 11:48:16 - app - INFO - Starting up Library Management System API...
+2026-06-25 11:48:16 - app - INFO - Database connection successful
+2026-06-25 11:48:16 - app - INFO - Database tables initialized successfully
+2026-06-25 11:48:16 - app - INFO - Database initialized successfully
+2026-06-25 11:51:38 - app - ERROR - Database session error: [{'type': 'missing', 'loc': ('query', 'book_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'member_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'issued_by_user_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}]
+2026-06-25 12:03:54 - app - ERROR - Error returning book: Book issue with ID 7 not found
+2026-06-25 12:03:54 - app - ERROR - Database session error: 
+2026-06-25 12:04:08 - app - ERROR - Error returning book: Book issue with ID 317 not found
+2026-06-25 12:04:08 - app - ERROR - Database session error: 
+2026-06-25 12:04:09 - app - ERROR - Error returning book: Book issue with ID 317 not found
+2026-06-25 12:04:09 - app - ERROR - Database session error: 
+2026-06-25 12:04:51 - app - ERROR - Database session error: [{'type': 'missing', 'loc': ('query', 'book_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'member_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'issued_by_user_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}]
+2026-06-25 12:09:51 - app - ERROR - Database session error: [{'type': 'missing', 'loc': ('query', 'book_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'member_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}, {'type': 'missing', 'loc': ('query', 'issued_by_user_id'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.4/v/missing'}]
